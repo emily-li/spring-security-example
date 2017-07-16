@@ -21,4 +21,9 @@ public class WebApplication {
     String home() {
         return "Hello World!";
     }
+
+    @RequestMapping("/secure")
+    String secure() {
+        return "This is secure!";
+    }
 }
