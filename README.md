@@ -7,8 +7,10 @@ Contains three pages
 * /secure
   * Secured. Redirects to login if user is unauthenticated
 * /login
-  * Unsecured. Redirects to login?error if login fails
+  * Unsecured. Redirects to login?error if login fails (default behaviour of Spring Security AbstractAuthenticationFilterConfigurer)
   
+Uses Thymeleaf
+
 # Requirements
 * Java 1.8
   * Can easily be rewritten to lower versions, e.g. change IntStream foreach to for loop
