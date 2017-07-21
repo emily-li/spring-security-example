@@ -17,3 +17,4 @@ Uses Thymeleaf
 * MySQL
   * Alternative database and driver can be configured in application.properties
   * schema.sql may need to be altered if language is changed
+  * Set up the database username and password in application.properties
